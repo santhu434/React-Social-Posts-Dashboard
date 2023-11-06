@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height:65px;
+   background-color:black;
+   position: relative;
+}
+.logo {
+  width: auto;
+  height: auto;
+  padding-left: 60px;
+}
+.list{
+padding-left: 30px;
+
+}
+.dashboard, .post{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    border:none;
+    outline:none;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.list li:hover{
+    background-color: rgb(88, 85, 85);
+    color:white;
+    cursor: pointer;
+}
+.profile {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   top: 5px;
+   right: 30px;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+#content{
+    height: 110px;
+    background-color: rgb(245, 243, 242);
+    border: none;
+}
+#inp-title{
+    background-color: rgb(245, 243, 242);
+    padding-bottom: 15px;
+    border: none;
+}
+#btn-upload-img{
+    background-color: rgb(245, 243, 242);
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#btn-upload{
+    background-color:rgb(94, 149, 250);
+    color: white;
+    margin-right: 5px;
+}
+.network_status{
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}

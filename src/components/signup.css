@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    overflow: hidden;
+  }
+  
+  .sign-upcontainer{
+    display: flex;
+    flex-direction: row;
+  }
+  .form{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .content{
+    width: 50%;
+    background-size: cover;
+  }
+   .fields{
+ 
+    width: 450px;
+    height: 400px;
+   }
+   .svg{
+    height: 100vh;
+    width: 110%;
+    }
+  .heading{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.namefield{
+    display: flex;
+    justify-content: space-between;
+}
+.account{
+    text-align: center;
+    font-size:18px;
+    color: rgb(196, 196, 196);
+  }
+  .Aacount h1{
+    font-weight: lighter;
+  }
+  .Forgot-pwd{
+    display:flex;
+    flex-direction: row;
+
+  }
+  .Forgot-pwd Input{
+    margin-top: 4px;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+#FOR-PWD{
+  position: absolute;
+  right: 0px;
+
+}
+#Btn-Reg{
+  margin-top: 10px;
+}
+.error{
+  color: red;
+}

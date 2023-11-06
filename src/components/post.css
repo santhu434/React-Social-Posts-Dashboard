@@ -1,0 +1,116 @@
+.navbar{
+    margin:75px;
+    text-align: end;
+    position: relative;
+}
+.search{
+    width: 150px;
+    margin-right: 20px;
+}
+#heading{
+    position: absolute;
+    left: 10px;
+    font-size: 2rem;
+
+}
+#btn-create{
+    background-color: rgb(40, 107, 233);
+    color: white;
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+#content{
+    background-color: rgb(245, 243, 242);
+    border: none;
+}
+#inp-title{
+    background-color: rgb(245, 243, 242);
+    border: none;
+}
+#btn-upload-img{
+    background-color: rgb(245, 243, 242);
+    text-align: right;
+}
+#btn-upload{
+    background-color:rgb(94, 149, 250);
+    color: white;
+    margin-right: 5px;
+}
+.ant-form-item {
+    margin-bottom: 8px; 
+  }
+
+ 
+
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 8px;
+  font-weight: bold;
+}
+
+
+.table-header {
+  flex: 1;
+  text-align: center;
+}
+
+
+.table-row div {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+}
+
+.publish {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.publish:hover {
+  background-color: #45a049;
+}
+
+
+.unpublish {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.unpublish:hover {
+  background-color: #d32f2f;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #d32f2f;
+}
+.page_navigate_btn{
+ text-align: end;
+}
+.table{
+  width: 90%;
+  margin: auto;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+.blog_name{
+  padding-left: 10px;
+}
